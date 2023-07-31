@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Narkis-block;
+    src: url(./narkis_block.ttf);
+  }
+
+* {
+    font-family: Narkis-block;
+    text-align: right;
+}
+
+html {
+background-color: aliceblue;
+text-align:;
+
+}
+
+.htr {
+    background-color: #fff;
+    height: 16px;
+    width: 14px;
+    margin-left: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex-shrink: 0;
+    display: inline-flex;
+}
+
+header {
+    height: 141px;
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #fff;
+    transition: height 0.3s;
+    position: relative;
+}
+
+#imglogo {
+    position: absolute;
+    width: 175px;
+    height: auto;
+    top:10%
+}
+
+#hdr1 {
+    position: absolute;
+    left: 92.5%;
+    top:50%;
+    font-size: 13px;
+}
+
+#hdr2 {
+    position: absolute;
+    top:50%;
+    font-size: 13px;
+    left: 84%;
+}
+
+#hdr3 {
+    position: absolute;
+    top:50%;
+    font-size: 13px;
+    left: 75.8%;
+}
+
+#bell{
+   position: absolute;
+   left: 96%;
+   top:50%;
+   font-size: 13px;
+}
+#list {
+    position: absolute;
+    left:90%;
+    top:50%;
+    font-size: 13px;
+}
+#sunshine {
+    position: absolute;
+    top:48%;
+    font-size: 13px;
+    left:81.2%;
+    height: 20px;
+    width: 20px;
+}
+
+.headmenu {
+    background-color: rgb(222, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    width: 1240px; 
+    height: 28px;
+    align-items: center;
+  }
+  
+  .headmenu div {
+    background-color:rgb(222, 26, 26);
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: #fff;
+  }  
+
+  .tb {
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    width: 1240px; 
+    height: 100px;
+    align-items: center;
+  }
+
+  .tb div{
+    background-color:rgb(250, 248, 248);
+    width: 217px;
+    height: 72px;
+    padding: 0px;
+    border-right: 0.5px solid black; 
+    border-right-style: dotted;
+    font-size: 15px;
+    color:black;
+    text-align: right;
+    align-items: center;
+  }
+  .tb div:hover { color: blue;}
+
+  #tbl {
+    text-align: center;
+    align-items: center;
+    color:rgb(222, 26, 26);
+  }
+
+  .mainweb {
+   background-color: rgb(225, 228, 231);
+   width: 1240px;
+   height: 450px;
+   display: flex;
+  }
+.mainwebr {
+    width:  620px;
+    height:  340px;
+
+}
+.mainwebl {
+    width: 620px;
+    height: 340px;
+}
+#date {
+    position: absolute;
+    margin-left: 85%;
+    padding: 10px;
+}
+ #maintitle { 
+    position:relative;
+}
+#imgsolider {
+    position: absolute;
+    width:  620px;
+    height:  340px;
+}
